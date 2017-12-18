@@ -16,4 +16,43 @@ and open the template in the editor.
 .fundoAzulMenu {
     
     background-color: #57BEE6;
+    
+}
+
+.fundoAzulEscuro {
+    
+    background-color: #295465;
+}
+
+.elementIconHeader {
+    color: #fff;
+    padding: 6px;
+    margin: 2px;
+    text-decoration: none;
+    
+}
+
+.fonteDoNav {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #275565;
+    margin-left:60px;
+    margin-right:60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-justify: auto;
+    letter-spacing: 4px;
+    
+}
+
+.rowCapa {
+    
+    background-image:url(../imgAdicional/girl-desk-thinking.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding:80px;
 }
