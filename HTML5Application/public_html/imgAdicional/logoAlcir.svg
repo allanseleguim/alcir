@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="62.4416mm" height="10.5832mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6244 1058"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="729" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="AvenirNext LT Pro Bold">
+		<font-face-src>
+			<font-face-name name="AvenirNextLTPro-Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="R" horiz-adv-x="663" d="M651.989 0l-184.984 302.998c91.0061,27.9886 146.983,95.9979 146.983,191.015 0,161.987 -134.98,213.983 -270.999,213.983l-269.989 0 0 -707.995 167.989 0 0 281.011 57.9969 0 153.014 -281.011 199.988 0zm-207 491.012c0,-72.0201 -68.9904,-86.0144 -123.986,-86.0144l-80.9937 0 0 164.988 90.9773 0c51.0142,0 114.003,-12.9844 114.003,-78.9739z"/>
+   <glyph unicode="A" horiz-adv-x="729" d="M742.996 0l-293.995 707.995 -165.998 0 -296.996 -707.995 185.994 0 51.9953 138.991 273.999 0 54.9961 -138.991 190.005 0zm-292.005 275.99l-178.002 0 89.9962 243.01 88.0053 -243.01z"/>
+   <glyph unicode="L" horiz-adv-x="526" d="M519 0l0 149.003 -273.999 0 0 558.992 -172 0 0 -707.995 445.999 0z"/>
+   <glyph unicode="I" horiz-adv-x="318" d="M245.001 0l0 707.995 -172 0 0 -707.995 172 0z"/>
+   <glyph unicode="C" horiz-adv-x="695" d="M695.992 97.9889l-118.995 112.012c-30.0084,-42.0117 -82.9847,-71.9912 -149.984,-71.9912 -118.014,0 -201.027,87.9765 -201.027,216.984 0,124.996 85.0045,217.012 204.028,217.012 53.9862,0 110.973,-21.0059 142.973,-65.0085l116.023 115.994c-59.0068,68.0093 -165.998,104.019 -264.997,104.019 -216.003,0 -384.021,-145.021 -384.021,-372.017 0,-222.004 162.997,-373.979 381.02,-373.979 118.995,0 213.002,44.9837 274.981,116.975z"/>
+   <glyph unicode="V" horiz-adv-x="681" d="M697.002 707.995l-188.995 0 -162.997 -502.005 -4.01073 0 -164.007 502.005 -191.996 0 267.998 -707.995 171.019 0 272.99 707.995z"/>
+   <glyph unicode="E" horiz-adv-x="607" d="M567.014 0l0 146.002 -329.024 0 0 147.012 294.024 0 0 137 -294.024 0 0 132.989 311.019 0 0 144.992 -476.008 0 0 -707.995 494.013 0z"/>
+   <glyph unicode=" " horiz-adv-x="249" d=""/>
+   <glyph unicode="S" horiz-adv-x="590" d="M555.992 639.005c-61.9788,56.987 -152.004,86.9954 -231.988,86.9954 -132.008,0 -273.999,-65.0085 -273.999,-222.004 0,-127.997 91.0061,-173.991 181.002,-202.989 92.9971,-30.0084 146.983,-47.0035 146.983,-101.019 0,-56.987 -45.9936,-76.983 -97.9889,-76.983 -56.006,0 -118.995,31.9993 -153.014,74.9921l-111.983 -114.003c62.0077,-65.0085 164.007,-102 264.997,-102 140.001,0 270.999,73.0011 270.999,235.998 0,141.01 -123.986,182.012 -220.013,213.002 -66.9995,21.0059 -108.982,36.01 -108.982,83.0135 0,55.9771 54.9961,70.9813 98.9988,70.9813 44.0027,0 97.0078,-23.9778 126.006,-60.9978l108.982 115.013z"/>
+   <glyph unicode="P" horiz-adv-x="639" d="M610.007 490.002c0,161.987 -121.996,217.993 -277,217.993l-260.005 0 0 -707.995 170.99 0 0 266.988 85.0045 0c147.993,0 281.011,59.0068 281.011,223.014zm-171.019 -1.0099c0,-66.9995 -58.978,-85.9855 -122.977,-85.9855l-72.0201 0 0 166.979 75.0209 0c60.9978,0 119.976,-12.9844 119.976,-80.9937z"/>
+   <glyph unicode="’" horiz-adv-x="299" d="M258.014 707.995l-145.021 0 -71.9912 -270.999 126.006 0 91.0061 270.999z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"AvenirNext LT Pro Bold";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil1 {fill:#275565}
+    .fil0 {fill:#57BEE6}
+    .fil2 {fill:white}
+    .fnt0 {font-weight:bold;font-size:346.57px;font-family:'AvenirNext LT Pro Bold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="-32,-44 6271,-44 6271,1134 -32,1134 "/>
+  <rect class="fil1" x="83" y="87" width="6029" height="953"/>
+  <rect class="fil0" x="2472" y="254" width="1076" height="617"/>
+  <text x="961" y="713"  class="fil2 fnt0">ALCIR’S </text>
+  <text x="3700" y="714"  class="fil2 fnt0">CLASSES</text>
+  <text x="2767" y="682"  class="fil1 fnt0">VIP </text>
+ </g>
+</svg>

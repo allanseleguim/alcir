@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/12/2017, 15:50:41
+    Author     : seletech-note
+*/
+
+@font-face {
+     font-family: AvenirNext LT Pro Bold;
+     src: local(../fonts/avenir-next-lt-pro-bold.otf), url(../fonts/avenir-next-lt-pro-bold.otf);
+}
+
+.fundoAzulMenu {
+    
+    background-color: #57BEE6;
+}
