@@ -8,19 +8,26 @@ and open the template in the editor.
     Author     : seletech-note
 */
 
+
+
 @font-face {
-     font-family: AvenirNext LT Pro Bold;
-     src: local(../fonts/avenir-next-lt-pro-bold.otf), url(../fonts/avenir-next-lt-pro-bold.otf);
+    font-family: MontserratAlternatesMedium;
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: PT_Serif-Web-Regular;
+    src: url("../fonts/PT_Serif-Web-Regular.ttf");
 }
 
 .fundoAzulMenu {
-    
+
     background-color: #57BEE6;
-    
+
 }
 
 .fundoAzulEscuro {
-    
+
     background-color: #295465;
 }
 
@@ -29,12 +36,12 @@ and open the template in the editor.
     padding: 6px;
     margin: 2px;
     text-decoration: none;
-    
+
 }
 
 .fonteDoNav {
-    
-    font-family: 'Open Sans', sans-serif;
+
+    font-family:'MontserratAlternatesMedium', MontserratAlternatesMedium, Arial;
     font-size: 20px;
     color: #275565;
     margin-left:60px;
@@ -42,17 +49,220 @@ and open the template in the editor.
     padding-left: 40px;
     padding-right: 40px;
     text-justify: auto;
-    letter-spacing: 4px;
-    
+
 }
 
 .rowCapa {
-    
+
     background-image:url(../imgAdicional/girl-desk-thinking.jpg);
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
-    padding:80px;
+    height: 670px;
+    padding:140px;
+}
+
+.textoLinkBotao {
+    font-family: 'PT_Serif-Web-Regular', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.estiloP {
+    font-family: 'PT_Serif-Web-Regular', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.estiloPSegundaRow {
+    font-family: 'PT_Serif-Web-Regular', sans-serif;
+    font-size: 18px;
+    color: #295465;
+    padding: 10px;
+    margin: 2px;
+}
+
+.Row2BlocosTabela {
+    
+    padding:10px;
+    margin: 10px;
+    
+}
+
+
+.estiloH1 {
+    font-family: 'MontserratAlternatesMedium', serif;
+    font-size: 38px;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.estiloH1Branco {
+    font-family: 'MontserratAlternatesMedium', serif;
+    font-size: 38px;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.Row1Botao {
+    
+    width: 240px;
+    padding:  8px;
+    margin: 5px;
+    background-color: #57BEE6;
+    border-radius: 30px;
+    border-style: none;
+    color: #fff;
+    transition:all 0.3s ease;
+    
+}
+
+.Row1Botao:hover {
+    -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        background-color: #f39c12;
+    
+}
+
+.Row3Estilo {
+    
+    background-color: #9FD5EA;
+    height: 660px;
+}
+
+
+.Row3Bola {
+    
+    height: 190px;
+    width:  190px;
+    border-radius:100%;
+    border-color: #57BEE6;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    margin-left:40px;
+    background-color:#57BEE6;
+}
+
+.Row3AjusteIconeDentroBola {
+    
+    padding-top: 45px;
+    margin-top:10px;
+    color: #fff;
+}
+
+.Row3AjusteColMd3 {
+    padding-top:30px;
+    margin-top:10px;
+    
+}
+
+.Row4Estilo {
+    
+    background-image: url(../imgAdicional/girl-reading.jpg);
+    height: 660px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Row5Estilo {
+    
+    background-image: url(../imgAdicional/student.jpg);
+    height: 660px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Row4EstiloImagemBloco {
+    
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.Row4DarkBlueBox {
+    
+    background-color: #fff;
+    padding:20px;
+    margin:10px;
+    opacity: 0.5;
+    margin-top:70px;
+    
 }
