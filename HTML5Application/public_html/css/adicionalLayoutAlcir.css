@@ -85,10 +85,10 @@ and open the template in the editor.
 }
 
 .Row2BlocosTabela {
-    
+
     padding:10px;
     margin: 10px;
-    
+
 }
 
 
@@ -119,7 +119,7 @@ and open the template in the editor.
     30%
     {
         -webkit-transform: translateX(-5px);
-       transform: translateX(-5px);
+        transform: translateX(-5px);
     } 
     50%
     {
@@ -177,7 +177,7 @@ and open the template in the editor.
 }
 
 .Row1Botao {
-    
+
     width: 240px;
     padding:  8px;
     margin: 5px;
@@ -186,27 +186,27 @@ and open the template in the editor.
     border-style: none;
     color: #fff;
     transition:all 0.3s ease;
-    
+
 }
 
 .Row1Botao:hover {
     -webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-        background-color: #f39c12;
-    
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    background-color: #f39c12;
+
 }
 
 .Row3Estilo {
-    
+
     background-color: #9FD5EA;
     height: 660px;
 }
 
 
 .Row3Bola {
-    
+
     height: 190px;
     width:  190px;
     border-radius:100%;
@@ -219,7 +219,7 @@ and open the template in the editor.
 }
 
 .Row3AjusteIconeDentroBola {
-    
+
     padding-top: 45px;
     margin-top:10px;
     color: #fff;
@@ -228,11 +228,11 @@ and open the template in the editor.
 .Row3AjusteColMd3 {
     padding-top:30px;
     margin-top:10px;
-    
+
 }
 
 .Row4Estilo {
-    
+
     background-image: url(../imgAdicional/girl-reading.jpg);
     height: 660px;
     background-attachment: scroll;
@@ -242,7 +242,7 @@ and open the template in the editor.
 }
 
 .Row5Estilo {
-    
+
     background-image: url(../imgAdicional/student.jpg);
     height: 660px;
     background-attachment: scroll;
@@ -252,17 +252,246 @@ and open the template in the editor.
 }
 
 .Row4EstiloImagemBloco {
-    
+
     padding-top: 100px;
     padding-bottom: 30px;
 }
 
 .Row4DarkBlueBox {
-    
+
     background-color: #fff;
     padding:20px;
     margin:10px;
     opacity: 0.5;
     margin-top:70px;
+
+}
+
+
+/* Seção depoimentos */
+
+#carousel-testimonials .carousel-indicators {
+    bottom: inherit;
+    top: 20rem;
+}
+#carousel-testimonials .carousel-indicators li{ 
+    border :2px solid #7c8a8d; 
+    width:16px; 
+    height:16px;
+    margin:0px;
+} 
+#carousel-testimonials .carousel-indicators .active {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    background-color: #ac1c20;
+    border :2px solid #ac1c20;
+}
+#carousel-testimonials .caption blockquote{
+    font-size:36px;
+    font-family:'MontserratAlternatesMedium', MontserratAlternatesMedium, Arial;
+    color: #275565;
+    margin-left:60px;
+    margin-right:60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-justify: auto;
+
+}
+#carousel-testimonials .caption small cite{
+    color:#4a4f55;
+    font-size:22px;
+    font-family:'MontserratAlternatesMedium', MontserratAlternatesMedium, Arial;
+    text-decoration: none;
+    padding:15px;
+    margin:4px;
+}
+#carousel-testimonials .caption #stars-existing{
+    display:inline-block;
+    font-size:28px;
+}
+#carousel-testimonials .caption #stars-existing .glyphicon-star-empty{
+    color:#ac1c20;
+}
+
+.Row5FundoDepoimento {
+
+    height: 320px;
+    padding: 40x;
+    margin:20px;
+}
+
+.Row5EstiloDepoimentos {
+
+    background-color: #fff;
+    padding:40px;
+    margin:40px;
+
+}
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+/* Formulário de Contato */
+
+.content-header{
+  font-family: 'PT_Serif-Web-Regular', sans-serif;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
     
+   font-family:'MontserratAlternatesMedium', MontserratAlternatesMedium, Arial;
+    font-size:18px;
+
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186; /* fallback for old browsers */
+    color : #fff;    
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+
+  line-height: 1em;
+  font-weight: normal;
+   font-family:'MontserratAlternatesMedium', MontserratAlternatesMedium, Arial;
+    font-size:16px;
+    color: #fff;
+}
+.form-control{
+  font-size: 1.8em;
+  color: #080808;
+}
+
+textarea.form-control {
+    height: 420px;
+    font-family:'MontserratAlternatesMedium', MontserratAlternatesMedium, Arial;
+    font-size:16px;
+    color: #295465;
+ 
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+/* Rodapé */
+
+footer{
+    background-color:rgba(44, 62, 80,1.0);
+    height:300px;
+    width:100%;
+    bottom:0;
+    font-weight:lighter;
+    color:white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgba(52, 73, 94,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
 }
